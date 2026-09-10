@@ -1,4 +1,12 @@
 const mongoose = require("mongoose");
+const dns = require("dns");
+
+// Ensure robust SRV record resolution on Windows
+try {
+  dns.setServers(["8.8.8.8", "8.8.4.4"]);
+} catch (e) {
+  // Ignore in environments where custom DNS is restricted
+}
 
 /**
  * Connect to MongoDB Database

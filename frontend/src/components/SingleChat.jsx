@@ -15,9 +15,9 @@ import ProfileModal from "./miscellaneous/ProfileModal";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import ScrollableChat from "./ScrollableChat";
 
-const ENDPOINT = window.location.hostname === "localhost" 
+const ENDPOINT = import.meta.env.VITE_API_URL || (window.location.hostname === "localhost" 
   ? "http://localhost:5000" 
-  : window.location.origin;
+  : window.location.origin);
 
 let socket, selectedChatCompare;
 
