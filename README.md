@@ -1,6 +1,6 @@
 # Full Stack Real-Time MERN Chat Application
 
-A modern, production-ready real-time chatting application inspired by the **Talk-A-Tive** architecture (`piyush-eon/mern-chat-app`), built with **React (Vite), Tailwind CSS, Node.js, Express, Socket.IO, and MongoDB**.
+A modern, production-ready real-time chatting application inspired by the **TPulseChat** architecture built with **React (Vite), Tailwind CSS, Node.js, Express, Socket.IO, and MongoDB**.
 
 ---
 
