@@ -110,7 +110,7 @@ const SideDrawer = () => {
             <MessageSquare size={20} />
           </div>
           <span className="text-lg font-bold bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Talk-A-Tive
+            PulseChat
           </span>
         </div>
 
