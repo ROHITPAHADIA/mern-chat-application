@@ -1,6 +1,6 @@
 # Full Stack Real-Time MERN Chat Application
 
-A modern, production-ready real-time chatting application inspired by the **PulseChat** architecture built with **React (Vite), Tailwind CSS, Node.js, Express, Socket.IO, and MongoDB**.
+A modern, production-ready real-time chatting application  **PulseChat** architecture built with **React (Vite), Tailwind CSS, Node.js, Express, Socket.IO, and MongoDB**.
 
 ---
 
